@@ -2,15 +2,32 @@
     display:grid;
     grid-template-columns: 3fr 1fr;
     padding: 3% 1%;
+    margin: 20px;
+    
 }
 .nomination-events{
     border-left: 2px solid grey;
+    color: #ecc76f;
+    text-align: left;
+    padding: 10px;  
+    margin-left: 20px;
+}
+.nomination-events h2{
+    border-bottom: 2px solid grey;
+}
+.nomination-events h3{
+
+    font-size: 16px;
     color: white;
+    text-align: left;
+    font-weight: 400;
     
 }
 .laureates-info{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
 .total-budget{
     color: white;
