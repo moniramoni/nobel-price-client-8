@@ -1,0 +1,31 @@
+.nobel-prize-container{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 3% 1%;
+}
+.nomination-events{
+    border-left: 2px solid grey;
+    color: white;
+    
+}
+.laureates-info{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.total-budget{
+    color: white;
+    font-weight: 500;
+    text-align: left;
+}
+.budget-div{
+    padding: 0% 5%;
+}
+.budget-div p{
+    color: rgba(190, 190, 190, 0.781);
+    text-align: left;
+}
+
+.total-budget span{
+    color: #ecc76f;
+    font-weight: 500;
+}

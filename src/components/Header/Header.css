@@ -1,0 +1,88 @@
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+
+}
+.header-top{
+    background-color:rgba(255, 255, 255, 0.05);
+    display: grid;
+    grid-template-columns: repeat(2, 30% 60%);
+    margin: auto;
+    align-items: center;
+    width: 80%;
+
+}
+nav img{
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 0px;
+    width: 108%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+.header-name{
+    align-items: center;
+    color:#ecc76f;
+    text-align: left;
+    margin-left: -.8em;
+    font-size: 2.2em;
+}
+.logo h1 .dot{
+    display: inline-block;
+    color:#ecc76f;
+    font-size: .6em;
+    margin-left: 25px;
+ 
+}
+.logo h1 .price{
+    color: white;
+    font-size: .8em;
+    font-weight: 500;
+}
+.menu{
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+.menu a:hover{
+    background-color: #ecc76f;
+    padding: 8px 20px;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 500;
+}
+.secondary-header{
+    padding: 20px;
+}
+.saerch-field{
+    padding: 0px;
+}
+input{
+    padding: .5rem 2rem;
+    font-size: 1em;
+    border: none;
+    width: 50%;
+}
+::placeholder {
+    color: rgb(175, 175, 175);
+    font-size: .9em;
+    border: none;
+}
+button{
+    padding: .5rem 2rem;
+    background-color:#ecc76f;
+    font-size: 1em;
+    font-weight:600;
+    border: none;
+}
